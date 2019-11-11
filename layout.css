@@ -1,0 +1,39 @@
+* {margin: 0;padding: 0}
+body {color: #333;font-size: 16px;}
+header, article, section {
+	display: block;
+}
+.banner {
+	width: 1200px;
+	text-align: right;
+}
+.banner div {
+	display: inline-block;
+	width: 49%;
+}
+.banner h1, .banner p {
+	text-align: center;
+}
+.banner img {
+	width: 300px;
+	height: 200px;
+}
+nav {
+	width: 100%;
+	text-align: center;
+}
+nav ul {
+	list-style-type: none;
+	width: 1200px;
+	border: 1px solid white;
+	margin: 0 auto;
+}
+nav li {
+	display: inline-flex;
+	width: 230px;
+}
+nav a {
+	display: block;
+	width: 100%;
+	padding: 3px 30px;
+}
